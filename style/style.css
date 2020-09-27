@@ -600,5 +600,18 @@ align-items: center;
     font-family: var(--ff-raleway);
     font-size: 26px;
     font-weight: 300;
-
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+.inner_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer_text {
+    font-size: 11px;
+    color: var(--color-grey);
+}
+.footer_box_icon a:first-of-type {
+    margin-right: 1.5rem;
 }
