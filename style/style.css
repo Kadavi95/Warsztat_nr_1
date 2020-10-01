@@ -2,7 +2,6 @@
 * {
     box-sizing: border-box;
 }
-
 :root  {
     --color-primary: #08a6e4;
     --color-primary-shadow: rgba(7, 172, 230, .16);
@@ -47,9 +46,10 @@ body {
 .header_nav_ul{
     display: flex;
     justify-content: space-between;
+    margin-right: 28;
 }
 .header_nav_btn {
-    padding: 28px 47px 22px;
+    padding: 28px 47px 23px;
     text-transform: uppercase;
     text-decoration: none;
     font-family: var(--ff-os);
@@ -64,7 +64,7 @@ body {
     border-color: var(--color-primary);
 }
 .last_btn_nav {
-    padding-right: 0px;
+    
 }
 /* first section */
 .section_first {
@@ -475,6 +475,9 @@ align-items: center;
 }
 .contact_column {
     width: 50%;
+}
+.first_column {
+margin-bottom: 200px;
 }
 .contact_heading {
     font-family: var(--ff-raleway);
